@@ -1,0 +1,57 @@
+{
+  "name": "transfer-github",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/transfer-github.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/transfer-github",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/transfer-github/issues"
+  },
+  "files": [
+    "src/",
+    "lib/"
+  ],
+  "version": "1.0.0",
+  "description": "Rewrite repository info for transferring GitHub repository.",
+  "main": "lib/transfer-github-owner.js",
+  "bin": {
+    "transfer-github-owner": "bin/cmd.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/",
+    "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
+    "watch": "babel src --out-dir lib --watch --source-maps",
+    "prepublish": "npm run --if-present build"
+  },
+  "keywords": [
+    "github",
+    "node",
+    "readme",
+    "package",
+    "npm"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-jsdoc-to-assert": "^2.0.1",
+    "babel-preset-power-assert": "^1.0.0",
+    "babel-register": "^6.9.0",
+    "mocha": "^2.5.3",
+    "power-assert": "^1.4.1"
+  },
+  "dependencies": {
+    "args": "^1.2.1",
+    "escape-string-regexp": "^1.0.5",
+    "path-exists": "^3.0.0",
+    "read-pkg": "^1.1.0",
+    "readme-filenames": "^1.0.1",
+    "traverse": "^0.6.6"
+  }
+}
