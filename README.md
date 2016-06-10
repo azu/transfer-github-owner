@@ -15,10 +15,11 @@ Install with [npm](https://www.npmjs.com/):
 
 ## Usage
 
-
 ```sh
-$ transfer-github-owner
+$ transfer-github-owner --from fromName --to toName
 ```
+
+Replace `fromName` with `toName`.
 
 ## Changelog
 
