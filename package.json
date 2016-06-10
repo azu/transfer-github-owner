@@ -12,7 +12,7 @@
     "url": "https://github.com/azu/transfer-github/issues"
   },
   "files": [
-    "bin/"
+    "bin/",
     "src/",
     "lib/"
   ],
