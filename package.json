@@ -16,7 +16,7 @@
     "src/",
     "lib/"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Rewrite repository info for transferring GitHub repository.",
   "main": "lib/transfer-github.js",
   "bin": {
