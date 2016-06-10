@@ -11,7 +11,7 @@ Rewrite repository info for transferring GitHub repository.
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install transfer-github-owner
+    npm install transfer-github-owner -g
 
 ## Usage
 
