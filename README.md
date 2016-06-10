@@ -1,4 +1,4 @@
-# transfer-github-owner
+# transfer-github [![Build Status](https://travis-ci.org/azu/transfer-github.svg?branch=master)](https://travis-ci.org/azu/transfer-github)
 
 Rewrite repository info for transferring GitHub repository.
 
@@ -11,19 +11,19 @@ Rewrite repository info for transferring GitHub repository.
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install transfer-github-owner -g
+    npm install transfer-github -g
 
 ## Usage
 
 ```sh
-$ transfer-github-owner --from fromName --to toName
+$ transfer-github --from fromName --to toName
 ```
 
 Replace `fromName` with `toName`.
 
 ## Changelog
 
-See [Releases page](https://github.com/azu/transfer-github-owner/releases).
+See [Releases page](https://github.com/azu/transfer-github/releases).
 
 ## Running tests
 
@@ -34,7 +34,7 @@ Install devDependencies and Run `npm test`:
 ## Contributing
 
 Pull requests and stars are always welcome.
-For bugs and feature requests, [please create an issue](https://github.com/azu/transfer-github-owner/issues).
+For bugs and feature requests, [please create an issue](https://github.com/azu/transfer-github/issues).
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
