@@ -2,6 +2,11 @@
 
 Rewrite repository info for transferring GitHub repository.
 
+## Feature
+
+- Rewrite `README.md`
+- Rewrite `package.json`
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
