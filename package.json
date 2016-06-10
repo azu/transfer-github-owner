@@ -17,9 +17,9 @@
   ],
   "version": "1.0.0",
   "description": "Rewrite repository info for transferring GitHub repository.",
-  "main": "lib/transfer-github-owner.js",
+  "main": "lib/transfer-github.js",
   "bin": {
-    "transfer-github-owner": "./bin/cmd.js"
+    "transfer-github": "./bin/cmd.js"
   },
   "directories": {
     "test": "test"
