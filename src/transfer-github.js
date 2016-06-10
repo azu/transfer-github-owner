@@ -24,5 +24,5 @@ module.exports = function (baseDir, argv) {
     const readmePath = findREADME(baseDir);
     const readmeContent = fs.readFileSync(readmePath, "utf-8");
     const replacedContent = transformREADME(readmeContent, from, to);
-    fs.writeFileSync(pkgPath, replacedContent);
+    fs.writeFileSync(readmePath, replacedContent);
 };
